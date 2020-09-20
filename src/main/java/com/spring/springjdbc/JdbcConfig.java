@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
  
-@Configuration
+@Configuration // iske lagane se ye pata chalta hai ki xml wali sari config isme hai
 @ComponentScan(basePackages = {"com.spring.DaoImpl"})
 public class JdbcConfig {
 	@Bean(name = {"ds"} )
