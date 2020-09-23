@@ -1,0 +1,30 @@
+1. Spring JDBC
+--------------
+Spring JDBC is a powerful mechanism to connect with a database and to execute queries
+
+Why to use Spring JDBC and not normal JDBC?
+-------------------------------------------
+Problems of JDBC:-
+-----------------
+1. We need to write a lot of code like opening and closing connection , getting statement again and  
+   again
+   Spring JDBC will solve this problem
+2. In normal JDBC handling exception are really painful things
+   But spring JDBC will solve this problems
+3. Database logic is time consuming process   
+4. Repeating business logic code again and again in all classes
+
+Advantages of spring JDBC:-
+--------------------------
+1. Spring JDBC provides JDBC template which has all important methods to perform operations
+
+NOTE:-
+1. JDBC template is a interface its implementation class is DriverManagerDataSource and jdbc template want   
+   object of its implementation class which is DriverManagerDataSource .
+
+2. DriverManagerDataSource have some properties which we have to provide like 
+
+driverClassName
+driverURL
+username
+password
